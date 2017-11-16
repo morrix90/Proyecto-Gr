@@ -1,0 +1,107 @@
+@media screen and (max-width: 576px) {
+    .navs {
+        display: flex;
+        flex-direction: column;
+    }
+    hr {
+        width: 80%;
+        margin: auto;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .company {
+        order: 2;
+        width: 80%;
+        margin: auto;
+    }
+    .slider {
+        order: 1;
+        width: 90%;
+    }
+    .icon {
+        position: absolute;
+        top: 90%;
+    }
+    .icon-angle-left {
+        right: 80%;
+    }
+    .icon-angle-right {
+        left: 80%;
+    }
+    .hr {
+        width: 80%;
+        margin: 40px auto 10px auto;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    span {
+        padding: 1.5em;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navs {
+        display: flex;
+        flex-direction: column;
+    }
+    hr {
+        width: 80%;
+        margin: auto;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .company {
+        order: 2;
+        width: 80%;
+        margin: auto;
+    }
+    .slider {
+        order: 1;
+        width: 90%;
+    }
+    .icon {
+        position: absolute;
+        top: 90%;
+    }
+    .icon-angle-left {
+        right: 80%;
+    }
+    .icon-angle-right {
+        left: 80%;
+    }
+    .hr {
+        width: 80%;
+        margin: 40px auto 10px auto;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    span {
+        padding: 1.5em;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
