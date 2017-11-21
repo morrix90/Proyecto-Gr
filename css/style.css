@@ -10,22 +10,25 @@
     .container {
         display: flex;
         flex-direction: column;
+        background-color: #FBFBFB;
     }
     
     nav {
         display: flex;
         flex-direction: row;
-        background-color: #3c424d;
+        background-color: #2B4461;
         width: 100%;
     }
     
     .logo {
         width: 20%;
+        margin-left: 20px;
     }
     
     .navs {
         display: flex;
         flex-direction: row;
+        margin: 0 30px;
     }
     
     .nav-links {
@@ -152,7 +155,7 @@
         display: flex;
         flex-direction: row;
         height: 150px;
-        background-color: #3c424d;
+        background-color: #2B4461;
         margin-top: 50px;
     }
     
