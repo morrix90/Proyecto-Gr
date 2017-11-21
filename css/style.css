@@ -13,8 +13,14 @@
     }
     
     nav {
+        display: flex;
+        flex-direction: row;
         background-color: #3c424d;
         width: 100%;
+    }
+    
+    .logo {
+        width: 20%;
     }
     
     .navs {
@@ -58,7 +64,7 @@
         display: flex;
         flex-direction: column;
         width: 50%;
-        margin: 50px 10px 50px 30px;
+        padding: 50px 10px 50px 30px;
     }
     
     .header>h1 {
@@ -70,12 +76,14 @@
     
     .slider {
         width: 50%;
+        position: relative;
+        margin: 50px 0;
     }
     
-    .slider>img {
+    .slides {
         width: 90%;
         border-radius: 4px;
-        margin: 50px 0 50px 30px;
+        margin: auto;
         /* -webkit-box-shadow: 3px 2px 12px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 3px 2px 12px -1px rgba(0, 0, 0, 0.75);
         box-shadow: 3px 2px 12px -1px rgba(0, 0, 0, 0.75); */
@@ -85,18 +93,18 @@
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 60%;
+        top: 50%;
         border: none;
         opacity: 0.7;
         font-size: 2em;
     }
     
     .icon-angle-left {
-        right: 44%;
+        left: 5%;
     }
     
     .icon-angle-right {
-        left: 95%;
+        right: 5%;
     }
     
     .hr {
@@ -140,8 +148,42 @@
         padding-bottom: 10px;
     }
     
-    footer {
-        height: 200px;
+    .footer {
+        display: flex;
+        flex-direction: row;
+        height: 150px;
         background-color: #3c424d;
         margin-top: 50px;
+    }
+    
+    .footer-nav {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .footer-links {
+        list-style: none;
+        padding-top: 10px;
+        font-size: 0.8em;
+    }
+    
+    .footer-links>a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .footer-powered {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .footer-powered>p {
+        color: #ffffff;
+        font-size: 0.8em;
+        padding: 10px;
     }
