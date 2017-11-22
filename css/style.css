@@ -12,17 +12,30 @@
         flex-direction: column;
         background-color: #FBFBFB;
     }
+    /*-----------------------------------------Navigation--------------------------------------------*/
     
     nav {
         display: flex;
         flex-direction: row;
-        background-color: #2B4461;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0D4C6E;
         width: 100%;
+        height: auto;
+    }
+    
+    .home {
+        width: 20%;
     }
     
     .logo {
-        width: 20%;
+        display: flex;
+        width: 90%;
         margin-left: 20px;
+    }
+    
+    .icon-bars {
+        display: none;
     }
     
     .navs {
@@ -56,11 +69,13 @@
         height: 3px;
         background-image: -webkit-linear-gradient(right, rgb(7, 59, 90), rgb(7, 59, 90), rgb(7, 59, 90));
     }
+    /*---------------------------------------Company----------------------------------------------------*/
     
     .row {
         width: 100%;
         display: flex;
         flex-direction: row;
+        margin: 50px 0;
     }
     
     .company {
@@ -75,6 +90,19 @@
         border-bottom: 2px solid red;
         padding-bottom: 5px;
         margin-bottom: 30px;
+    }
+    
+    .marcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 50px 0;
+    }
+    
+    .logo-marca {
+        width: 15%;
+        padding: 15px;
+        height: auto;
     }
     
     .slider {
@@ -113,6 +141,7 @@
     .hr {
         background: rgba(226, 226, 226, 1);
     }
+    /*---------------------------------------Products-------------------------------------------------*/
     
     .header>h3 {
         display: inline-block;
@@ -129,9 +158,9 @@
         margin: 30px 0 30px 50px;
     }
     
-    span {
+    .span {
         margin: auto;
-        border: solid 2px rgba(210, 215, 217, 0.75);
+        border: solid 3px rgba(210, 215, 217, 0.75);
         padding: 2.5em;
         transform: rotate(45deg);
         border-radius: 10px;
@@ -140,6 +169,7 @@
     .icon-product {
         transform: rotate(-45deg);
         font-size: 2em;
+        color: rgba(277, 56, 54, 1);
     }
     
     .content {
@@ -150,12 +180,13 @@
     h4.title {
         padding-bottom: 10px;
     }
+    /*--------------------------------------Footer-----------------------------------------------------*/
     
     .footer {
         display: flex;
         flex-direction: row;
-        height: 150px;
-        background-color: #2B4461;
+        height: auto;
+        background-color: #0D4C6E;
         margin-top: 50px;
     }
     
@@ -169,12 +200,13 @@
     .footer-links {
         list-style: none;
         padding-top: 10px;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     
     .footer-links>a {
         color: #ffffff;
         text-decoration: none;
+        font-weight: 600;
     }
     
     .footer-powered {
@@ -183,6 +215,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
+        margin-right: 40px;
     }
     
     .footer-powered>p {

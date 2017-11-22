@@ -1,7 +1,32 @@
     @media screen and (max-width: 576px) {
-        .navs {
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .home {
+            width: 30%;
+        }
+        .logo {
+            width: 100%;
+        }
+        ul.navs {
+            display: none;
+        }
+        ul.display {
             display: flex;
             flex-direction: column;
+            position: relative;
+            width: 100%;
+            border-top: 1px solid #ffffffb9;
+            transition: left 1s;
+        }
+        .menu {
+            display: flex;
+            color: #ffffff;
+            font-size: 2em;
+            margin: 0;
+            padding: 10px 30px;
+            cursor: pointer;
         }
         hr {
             width: 80%;
@@ -34,7 +59,7 @@
             width: 100%;
             margin: auto;
         }
-        span {
+        .span {
             padding: 1.5em;
             margin-top: 30px;
             margin-left: 50px;
@@ -44,11 +69,22 @@
             margin-bottom: 30px;
         }
     }
-    
-    @media screen and (max-width: 768px) {
-        .navs {
+    /* @media screen and (max-width: 768px) {
+        .home {
+            width: 30%;
+        }
+        .logo {
+            width: 100%;
+        }
+        ul.navs {
+            display: none;
+        }
+        .menu {
             display: flex;
-            flex-direction: column;
+            color: #ffffff;
+            font-size: 2em;
+            margin: 0;
+            padding: 10px 30px;
         }
         hr {
             width: 80%;
@@ -61,26 +97,19 @@
         }
         .company {
             order: 2;
-            width: 80%;
+            width: 90%;
             margin: auto;
+            padding: 30px 0;
         }
         .slider {
             order: 1;
-            width: 90%;
-        }
-        .icon {
-            position: absolute;
-            top: 90%;
-        }
-        .icon-angle-left {
-            right: 80%;
-        }
-        .icon-angle-right {
-            left: 80%;
+            width: 100%;
+            margin: auto;
+            padding: 30px 0;
         }
         .hr {
-            width: 80%;
-            margin: 40px auto 10px auto;
+            width: 90%;
+            margin: auto;
         }
         .products {
             display: flex;
@@ -88,7 +117,7 @@
             width: 100%;
             margin: auto;
         }
-        span {
+        .span {
             padding: 1.5em;
             margin-top: 30px;
             margin-left: 50px;
@@ -97,4 +126,4 @@
             margin-top: 30px;
             margin-bottom: 30px;
         }
-    }
+    } *
