@@ -9,39 +9,45 @@
         .logo {
             width: 100%;
         }
-        ul.navs {
-            display: none;
-        }
-        ul.display {
+        .navs {
             display: flex;
             flex-direction: column;
+            overflow: hidden;
+            max-height: 0;
             position: relative;
             width: 100%;
+            transition: all .5s;
+        }
+        ul.display {
             border-top: 1px solid #ffffffb9;
-            transition: left 1s;
+            max-height: 300px;
+            overflow: visible;
         }
         .menu {
             display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
             color: #ffffff;
             font-size: 2em;
             margin: 0;
             padding: 10px 30px;
             cursor: pointer;
         }
-        hr {
-            width: 80%;
+        /* hr {
+            width: 90%;
             margin: auto;
-        }
+        } */
         .row {
             display: flex;
             flex-direction: column;
             width: 100%;
+            margin: 30px 0;
         }
         .company {
             order: 2;
             width: 90%;
             margin: auto;
-            padding: 30px 0;
+            padding: 10px 0 30px 0;
         }
         .slider {
             order: 1;
@@ -67,6 +73,16 @@
         .content {
             margin-top: 30px;
             margin-bottom: 30px;
+        }
+        .footer {
+            flex-direction: column;
+        }
+        .legal {
+            width: 100%;
+        }
+        .footer-powered {
+            width: 100%;
+            margin-top: 15px;
         }
     }
     /* @media screen and (max-width: 768px) {

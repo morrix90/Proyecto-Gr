@@ -2,7 +2,7 @@
     *::after,
     *::before {
         box-sizing: border-box;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Lato', sans-serif;
         padding: 0;
         margin: 0;
     }
@@ -51,9 +51,19 @@
         font-weight: 700;
     }
     
+    .nav-links:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #51BD05;
+    }
+    
     .nav-links>a {
         text-decoration: none;
         color: #ffffff;
+    }
+    
+    ul.navs li a:hover {
+        color: #51BD05;
+        position: relative;
     }
     
     h3 {
@@ -104,6 +114,7 @@
         padding: 15px;
         height: auto;
     }
+    /*----------------------------------------Slider-------------------------------------------------*/
     
     .slider {
         width: 50%;
@@ -124,7 +135,7 @@
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 50%;
+        top: 41%;
         border: none;
         opacity: 0.7;
         font-size: 2em;
@@ -192,9 +203,10 @@
     }
     
     .legal {
-        width: 33.33%;
+        width: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
     }
     
     .legal>p {
@@ -236,10 +248,19 @@
         color: #ffffff;
         display: inline-block;
         border-bottom: 1px solid #FFF;
+        margin-bottom: 5px;
+    }
+    
+    .location>ul>li {
+        font-size: 0.8em;
+        font-weight: 600;
+        color: #FFF;
+        list-style: none;
+        padding-top: 15px;
     }
     
     .footer-powered {
-        width: 33.33%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
