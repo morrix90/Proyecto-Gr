@@ -4,10 +4,17 @@
             flex-wrap: wrap;
         }
         .home {
+            display:none;
+        }
+
+        .small-home {
+            display: flex;
             width: 30%;
         }
-        .logo {
-            width: 100%;
+        .small-logo {
+            display: flex;
+            width: 50%;
+            margin-left: 20px;
         }
         .navs {
             display: flex;

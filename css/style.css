@@ -33,6 +33,10 @@
         width: 90%;
         margin-left: 20px;
     }
+
+    .small-logo {
+        display: none;
+    }
     
     .icon-bars {
         display: none;
@@ -53,9 +57,10 @@
     
     .nav-links:hover {
         background-color: rgba(255, 255, 255, 0.8);
+    }
+    .nav-links:hover a {
         color: #51BD05;
     }
-    
     .nav-links>a {
         text-decoration: none;
         color: #ffffff;

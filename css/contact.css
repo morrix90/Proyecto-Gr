@@ -1,0 +1,16 @@
+.map {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.map>iframe {
+    width: 80%;
+    height: 50vh;
+    border: none;
+    }
+
+    @media screen and (max-width: 576px) {
+        .map {
+            width: 100%;
+        }
+    }
