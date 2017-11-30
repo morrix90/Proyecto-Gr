@@ -4,9 +4,8 @@
             flex-wrap: wrap;
         }
         .home {
-            display:none;
+            display: none;
         }
-
         .small-home {
             display: flex;
             width: 30%;
