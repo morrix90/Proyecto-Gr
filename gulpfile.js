@@ -4,8 +4,8 @@ const browserSync = require("browser-sync");
 gulp.task("default", () => {
     browserSync.init({
         server: "./",
-        tunnel: "proyecto",
-        open: "tunnel",
+        // tunnel: "proyecto",
+        // open: "tunnel",
         browser: "Firefox"
 
     });

@@ -68,12 +68,7 @@
     .nav-links>a {
         text-decoration: none;
         color: #ffffff;
-        padding: 1em;
-    }
-    
-    ul.navs li a:hover {
-        color: #51BD05;
-        position: relative;
+        padding: 1.2em;
     }
     
     h3 {
@@ -124,9 +119,9 @@
     }
     
     .logo-marca {
-        width: 30%;
+        width: 20%;
         padding: 15px;
-        height: auto;
+        height: 59.3833px;
     }
     /*----------------------------------------Slider-------------------------------------------------*/
     

@@ -7,7 +7,6 @@
             display: none;
         }
         .small-home {
-            display: flex;
             width: 30%;
         }
         .small-logo {
@@ -38,6 +37,20 @@
             margin: 0;
             padding: 10px 30px;
             cursor: pointer;
+        }
+        .nav-links {
+            transition: none;
+            padding: 1.2em 0;
+        }
+        .nav-links:hover {
+            background-color: transparent;
+        }
+        .nav-links:hover a {
+            color: #ffffff;
+        }
+        .nav-links>a {
+            display: flex;
+            padding: 0;
         }
         /* hr {
             width: 90%;
