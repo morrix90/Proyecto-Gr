@@ -19,9 +19,9 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: #0D4C6E;
+        background-color: #01508A;
         width: 100%;
-        height: auto;
+        /* height: auto; */
     }
     
     .home {
@@ -33,7 +33,7 @@
         width: 90%;
         margin-left: 20px;
     }
-
+    
     .small-logo {
         display: none;
     }
@@ -49,30 +49,30 @@
     }
     
     .nav-links {
-        padding: 1em;
+        padding: 1.2em;
         list-style: none;
         font-size: 1.1em;
         font-weight: 700;
+        height: auto;
+        transition: all 0.3s;
     }
     
     .nav-links:hover {
         background-color: rgba(255, 255, 255, 0.8);
     }
+    
     .nav-links:hover a {
         color: #51BD05;
     }
+    
     .nav-links>a {
         text-decoration: none;
         color: #ffffff;
-    }
-    
-    ul.navs li a:hover {
-        color: #51BD05;
-        position: relative;
+        padding: 1.2em;
     }
     
     h3 {
-        margin: 30px 0 15px 30px;
+        margin: 40px 0 0 30px;
         font-weight: 400;
         font-size: 1.5em;
     }
@@ -90,7 +90,7 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        margin: 50px 0;
+        margin: 30px 0;
     }
     
     .company {
@@ -107,6 +107,10 @@
         margin-bottom: 30px;
     }
     
+    .company p {
+        color: #757575;
+    }
+    
     .marcas {
         display: flex;
         flex-direction: row;
@@ -115,9 +119,9 @@
     }
     
     .logo-marca {
-        width: 30%;
+        width: 20%;
         padding: 15px;
-        height: auto;
+        height: 59.3833px;
     }
     /*----------------------------------------Slider-------------------------------------------------*/
     
@@ -185,7 +189,9 @@
     .icon-product {
         transform: rotate(-45deg);
         font-size: 2em;
-        color: rgba(277, 56, 54, 1);
+        /* color: rgba(277, 56, 54, 1); */
+        color: #0B9BA9;
+        /* color: #F46D78; */
     }
     
     .content {
@@ -196,13 +202,17 @@
     h4.title {
         padding-bottom: 10px;
     }
+    
+    .content p {
+        color: #757575;
+    }
     /*--------------------------------------Footer-----------------------------------------------------*/
     
     .footer {
         display: flex;
         flex-direction: row;
         height: auto;
-        background-color: #0D4C6E;
+        background-color: #01508A;
         margin-top: 50px;
         padding: 30px;
     }

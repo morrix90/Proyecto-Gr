@@ -4,11 +4,9 @@
             flex-wrap: wrap;
         }
         .home {
-            display:none;
+            display: none;
         }
-
         .small-home {
-            display: flex;
             width: 30%;
         }
         .small-logo {
@@ -37,6 +35,20 @@
             color: #ffffff;
             font-size: 2em;
             margin: 10px 30px;
+        }
+        .nav-links {
+            transition: none;
+            padding: 1.2em 0;
+        }
+        .nav-links:hover {
+            background-color: transparent;
+        }
+        .nav-links:hover a {
+            color: #ffffff;
+        }
+        .nav-links>a {
+            display: flex;
+            padding: 0;
         }
         /* hr {
             width: 90%;
