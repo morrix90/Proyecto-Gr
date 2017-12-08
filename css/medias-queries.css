@@ -36,9 +36,7 @@
             justify-content: flex-end;
             color: #ffffff;
             font-size: 2em;
-            margin: 0;
-            padding: 10px 30px;
-            cursor: pointer;
+            margin: 10px 30px;
         }
         /* hr {
             width: 90%;
