@@ -108,7 +108,7 @@
     }
     
     .company p {
-        color: #757575;
+        color: #4e4949;
     }
     
     .marcas {
@@ -204,7 +204,7 @@
     }
     
     .content p {
-        color: #757575;
+        color: #4e4949;
     }
     /*--------------------------------------Footer-----------------------------------------------------*/
     
@@ -255,24 +255,6 @@
         font-size: 0.7em;
     }
     
-    .location {
-        width: 33.33%;
-    }
-    
-    .location h5 {
-        color: #ffffff;
-        display: inline-block;
-        border-bottom: 1px solid #FFF;
-        margin-bottom: 5px;
-    }
-    
-    .location>ul>li {
-        font-size: 0.8em;
-        font-weight: 600;
-        color: #FFF;
-        list-style: none;
-        padding-top: 15px;
-    }
     
     .footer-powered {
         width: 50%;

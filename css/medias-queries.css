@@ -100,6 +100,8 @@
         .footer-powered {
             width: 100%;
             margin-top: 15px;
+            justify-content: flex-start;
+            align-items: flex-start;
         }
     }
     /* @media screen and (max-width: 768px) {
