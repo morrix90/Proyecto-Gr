@@ -1,4 +1,4 @@
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 768px) {
         nav {
             display: flex;
             flex-wrap: wrap;
@@ -66,6 +66,9 @@
             margin: auto;
             padding: 10px 0 30px 0;
         }
+        .marcas {
+            display: none;
+        }
         .slider {
             order: 1;
             width: 100%;
@@ -104,61 +107,4 @@
             align-items: flex-start;
         }
     }
-    /* @media screen and (max-width: 768px) {
-        .home {
-            width: 30%;
-        }
-        .logo {
-            width: 100%;
-        }
-        ul.navs {
-            display: none;
-        }
-        .menu {
-            display: flex;
-            color: #ffffff;
-            font-size: 2em;
-            margin: 0;
-            padding: 10px 30px;
-        }
-        hr {
-            width: 80%;
-            margin: auto;
-        }
-        .row {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .company {
-            order: 2;
-            width: 90%;
-            margin: auto;
-            padding: 30px 0;
-        }
-        .slider {
-            order: 1;
-            width: 100%;
-            margin: auto;
-            padding: 30px 0;
-        }
-        .hr {
-            width: 90%;
-            margin: auto;
-        }
-        .products {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin: auto;
-        }
-        .span {
-            padding: 1.5em;
-            margin-top: 30px;
-            margin-left: 50px;
-        }
-        .content {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-    } *
+    
