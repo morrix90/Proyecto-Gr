@@ -112,19 +112,21 @@
     
     .company p {
         color: #4e4949;
+        padding-top: 15px;
     }
     
     .marcas {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin-top: 30px
+        margin-top: 30px;
+        height: 70px;
     }
     
     .logo-marca {
         width: 20%;
         padding: 15px;
-        height: 59.3833px;
+        height: auto;
     }
     /*----------------------------------------Slider-------------------------------------------------*/
     
@@ -203,7 +205,6 @@
     h4.title {
         padding-bottom: 10px;
         color: #04384A;
-
     }
     
     .content p {
@@ -262,27 +263,29 @@
         width: 33.33%;
         padding-left: 30px;
     }
-
+    
     .location h4 {
         font-size: 1.1em;
         color: #ffffff;
         padding-bottom: 10px;
         margin: auto;
     }
-
+    
     .location li {
         list-style: none;
         color: #ffffff;
         margin: auto;
         padding-top: 5px;
     }
-
+    
     .location li>a {
         color: #ffffff;
     }
+    
     .location li .location-icon {
         padding-right: 5px;
     }
+    
     .footer-powered {
         width: 33.33%;
         display: flex;
