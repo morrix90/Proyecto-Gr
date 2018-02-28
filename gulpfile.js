@@ -6,7 +6,7 @@ gulp.task("default", () => {
         server: "./",
         // tunnel: "proyecto",
         // open: "tunnel",
-        browser: "Firefox"
+
 
     });
     gulp.watch("./*.html").on("change", browserSync.reload);
